@@ -13,6 +13,13 @@ altura, largura = solicitarParametros()
 
 imagem_teste = geradorImagens(altura, largura)
 
+print("------")
+print("\nTeste:")
+print("------")
+print(geradorImagens().shape) 
+print(geradorImagens(10).shape) 
+print(geradorImagens(10,10).shape) 
+
 print(f"Dimensões da imagem gerada: {imagem_teste.shape}")
 print("\n---------------------------------")
 print("Imagem RGB gerada aleatoriamente:")
